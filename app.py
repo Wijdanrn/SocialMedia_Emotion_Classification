@@ -180,7 +180,7 @@ def main():
    
     with st.expander("Tentang Kasus"):
         st.write("""
-        Pada 2024, publik digemparkan oleh kasus Tom Lembong, mantan Menteri Perdagangan yang divonis bersalah dalam dugaan korupsi impor gula namun kemudian memperoleh abolisi dari Presiden. Keputusan tersebut memicu perdebatan sengit: sebagian menilai ia hanyalah korban kriminalisasi politik, sementara yang lain kecewa pada sistem hukum dan keputusan pengadilan. Di media sosial, emosi publik tumpah ruah—dari kemarahan, kesedihan, dan kekecewaan, hingga harapan akan reformasi hukum serta dukungan penuh sebagai bentuk solidaritas terhadap Tom.
+        Pada 2024, publik digemparkan oleh kasus Tom Lembong, mantan Menteri Perdagangan yang divonis bersalah dalam dugaan korupsi impor gula namun kemudian memperoleh abolisi dari Presiden. Keputusan tersebut memicu perdebatan sengit, sebagian menilai ia hanyalah korban kriminalisasi politik, sementara yang lain kecewa pada sistem hukum dan keputusan pengadilan. Di media sosial, emosi publik tumpah ruah dari kemarahan, kesedihan, dan kekecewaan, hingga harapan akan reformasi hukum serta dukungan penuh sebagai bentuk solidaritas terhadap Tom.
         """)
 
     with st.expander("Tentang Model"):
@@ -198,3 +198,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
