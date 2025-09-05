@@ -44,8 +44,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 @st.cache_resource
 def load_model():
     repo_id = "Wijdanadam/Fine-tuned_indoBERTweet_for_Emotion_Classification"
-    tokenizer = AutoTokenizer.from_pretrained(repo_id)
-    model = AutoModelForSequenceClassification.from_pretrained(repo_id)
+    tokenizer = AutoTokenizer.from_pretrained(repo_id, subfolder="saved_model")
+    model = AutoModelForSequenceClassification.from_pretrained(repo_id, subfolder="saved_model")
     model.to(device)
     model.eval()
     return tokenizer, model
@@ -196,4 +196,5 @@ def main():
         """)
 
 if __name__ == "__main__":
+
     main()
